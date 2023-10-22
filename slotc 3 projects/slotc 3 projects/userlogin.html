@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+    <style>
+        body {
+            background-color: purple;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>Travel Agency</b></h1>
+    <form action="login.php" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="name" name="Username">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

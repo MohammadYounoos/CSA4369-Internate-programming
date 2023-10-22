@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Donar</title>
+</head>
+<body  style="background-color: red">
+    <header>
+        <h1>Donar</h1>
+    </header>
+        <ul>
+            <li><a href="donorlogin.html">donorlogin</a></li>
+            <li><a href="donorregister.html">donorregister</a></li>
+            <li><a href="MydonorInfo.html">MydonorInfo</a></li>
+                <li><a href="bloodbankdetails.html">bloodbankdetails</a></li>
+            <li><a href="Bloodbank.html">Logout</a></li>
+        </ul>
+    
+    </main>
+</body>
+</html>
